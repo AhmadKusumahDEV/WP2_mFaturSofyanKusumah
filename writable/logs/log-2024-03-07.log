@@ -1,0 +1,109 @@
+CRITICAL - 2024-03-07 10:09:58 --> Error: Class "App\Models\kateogri" not found
+in APPPATH\Controllers\contohdb.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\contohdb->P1()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contohdb))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+CRITICAL - 2024-03-07 10:11:54 --> Error: Class "App\Models\kateogri" not found
+in APPPATH\Controllers\contohdb.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\contohdb->P1()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contohdb))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+CRITICAL - 2024-03-07 10:11:54 --> Error: Class "App\Models\kateogri" not found
+in APPPATH\Controllers\contohdb.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\contohdb->P1()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contohdb))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+CRITICAL - 2024-03-07 10:14:06 --> Error: Class "App\Models\kateogri" not found
+in APPPATH\Controllers\contohdb.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\contohdb->P1()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contohdb))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+CRITICAL - 2024-03-07 10:14:07 --> Error: Class "App\Models\kateogri" not found
+in APPPATH\Controllers\contohdb.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\contohdb->P1()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contohdb))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+CRITICAL - 2024-03-07 10:26:45 --> Error: Cannot use object of type mysqli as array
+in APPPATH\Controllers\contohdb.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\contohdb->P1()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contohdb))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+CRITICAL - 2024-03-07 10:27:45 --> ErrorException: Undefined property: stdClass::$id
+in APPPATH\Controllers\contohdb.php on line 13.
+ 1 APPPATH\Controllers\contohdb.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\xampp\\htdocs\\ciUBSI\\app\\Controllers\\contohdb.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\contohdb->P1()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contohdb))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+CRITICAL - 2024-03-07 10:28:16 --> Error: Object of class stdClass could not be converted to string
+in APPPATH\Controllers\contohdb.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\contohdb->P1()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contohdb))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+ERROR - 2024-03-07 10:29:07 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ciUBSI\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ciUBSI\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('127.0.0.1', 'root', '', 'Pustaka_book', 3306, '', 0)
+#1 C:\xampp\htdocs\ciUBSI\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ciUBSI\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ciUBSI\app\Controllers\contohdb.php(11): CodeIgniter\Database\BaseConnection->query('select * from k...')
+#4 C:\xampp\htdocs\ciUBSI\system\CodeIgniter.php(941): App\Controllers\contohdb->P1()
+#5 C:\xampp\htdocs\ciUBSI\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contohdb))
+#6 C:\xampp\htdocs\ciUBSI\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ciUBSI\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ciUBSI\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ciUBSI\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ciUBSI\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ciUBSI\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ciUBSI\app\Controllers\contohdb.php(11): CodeIgniter\Database\BaseConnection->query('select * from k...')
+#3 C:\xampp\htdocs\ciUBSI\system\CodeIgniter.php(941): App\Controllers\contohdb->P1()
+#4 C:\xampp\htdocs\ciUBSI\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contohdb))
+#5 C:\xampp\htdocs\ciUBSI\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ciUBSI\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ciUBSI\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-03-07 10:29:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\contohdb.php(11): CodeIgniter\Database\BaseConnection->query('select * from kategori')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\contohdb->P1()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contohdb))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+CRITICAL - 2024-03-07 10:32:01 --> ErrorException: Attempt to read property "nama_kategori" on array
+in APPPATH\Controllers\contohdb.php on line 13.
+ 1 APPPATH\Controllers\contohdb.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_kategori" on array', 'C:\\xampp\\htdocs\\ciUBSI\\app\\Controllers\\contohdb.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\contohdb->P1()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contohdb))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+CRITICAL - 2024-03-07 10:41:27 --> ParseError: syntax error, unexpected token "}"
+in APPPATH\Controllers\contohdb.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ciUBSI\\app\\Controllers\\contohdb.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\contohdb')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\contohdb')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\contohdb', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')

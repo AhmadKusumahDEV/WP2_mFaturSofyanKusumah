@@ -1,0 +1,56 @@
+CRITICAL - 2024-03-16 08:31:48 --> ErrorException: Undefined array key "tanggal_input"
+in APPPATH\Controllers\admin.php on line 15.
+ 1 APPPATH\Controllers\admin.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_input"', 'C:\\xampp\\htdocs\\ciUBSI\\app\\Controllers\\admin.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\admin->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+CRITICAL - 2024-03-16 08:32:45 --> ErrorException: Undefined array key "username"
+in APPPATH\Controllers\admin.php on line 15.
+ 1 APPPATH\Controllers\admin.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\ciUBSI\\app\\Controllers\\admin.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\admin->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+CRITICAL - 2024-03-16 08:32:55 --> ErrorException: Undefined array key "username"
+in APPPATH\Controllers\admin.php on line 15.
+ 1 APPPATH\Controllers\admin.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\ciUBSI\\app\\Controllers\\admin.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\admin->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+CRITICAL - 2024-03-16 08:34:07 --> ErrorException: Undefined array key "username"
+in APPPATH\Controllers\admin.php on line 15.
+ 1 APPPATH\Controllers\admin.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\ciUBSI\\app\\Controllers\\admin.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\admin->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+CRITICAL - 2024-03-16 08:34:32 --> ErrorException: Undefined array key "role_id"
+in APPPATH\Controllers\admin.php on line 15.
+ 1 APPPATH\Controllers\admin.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role_id"', 'C:\\xampp\\htdocs\\ciUBSI\\app\\Controllers\\admin.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\admin->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+CRITICAL - 2024-03-16 08:38:27 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\admin.php on line 15.
+ 1 APPPATH\Controllers\admin.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ciUBSI\\app\\Controllers\\admin.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\admin->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+CRITICAL - 2024-03-16 08:39:48 --> ErrorException: Undefined array key ""
+in APPPATH\Controllers\admin.php on line 15.
+ 1 APPPATH\Controllers\admin.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\xampp\\htdocs\\ciUBSI\\app\\Controllers\\admin.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\admin->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
