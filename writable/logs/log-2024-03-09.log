@@ -1,0 +1,24 @@
+CRITICAL - 2024-03-09 10:17:15 --> ErrorException: Undefined variable $data
+in APPPATH\Views\view-data-matakuliah.php on line 24.
+ 1 APPPATH\Views\view-data-matakuliah.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ciUBSI\\app\\Views\\view-data-matakuliah.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciUBSI\\app\\Views\\view-data-matakuliah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('view-data-matakuliah', [], true)
+ 5 APPPATH\Controllers\Matakuliah.php(46): view('view-data-matakuliah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Matakuliah->cetak()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Matakuliah))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+CRITICAL - 2024-03-09 10:20:48 --> ErrorException: Array to string conversion
+in APPPATH\Views\view-data-matakuliah.php on line 38.
+ 1 APPPATH\Views\view-data-matakuliah.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ciUBSI\\app\\Views\\view-data-matakuliah.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciUBSI\\app\\Views\\view-data-matakuliah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('view-data-matakuliah', [], true)
+ 5 APPPATH\Controllers\Matakuliah.php(48): view('view-data-matakuliah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Matakuliah->cetak()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Matakuliah))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')

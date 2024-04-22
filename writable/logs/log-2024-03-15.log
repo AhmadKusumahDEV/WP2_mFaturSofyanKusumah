@@ -1,0 +1,79 @@
+INFO - 2024-03-15 00:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-15 00:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-15 00:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-15 00:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-15 00:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-15 00:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-15 00:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-15 00:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-15 00:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-15 00:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-15 01:47:53 --> ErrorException: Undefined property: stdClass::$stock
+in APPPATH\Controllers\buku.php on line 37.
+ 1 APPPATH\Controllers\buku.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$stock', 'C:\\xampp\\htdocs\\ciUBSI\\app\\Controllers\\buku.php', 37)
+ 2 APPPATH\Controllers\buku.php(18): App\Controllers\buku->totalstok()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\buku->find()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\buku))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+CRITICAL - 2024-03-15 01:47:54 --> ErrorException: Undefined property: stdClass::$stock
+in APPPATH\Controllers\buku.php on line 37.
+ 1 APPPATH\Controllers\buku.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$stock', 'C:\\xampp\\htdocs\\ciUBSI\\app\\Controllers\\buku.php', 37)
+ 2 APPPATH\Controllers\buku.php(18): App\Controllers\buku->totalstok()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\buku->find()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\buku))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+CRITICAL - 2024-03-15 01:48:41 --> Error: Object of class stdClass could not be converted to string
+in APPPATH\Controllers\buku.php on line 38.
+ 1 APPPATH\Controllers\buku.php(18): App\Controllers\buku->totalstok()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\buku->find()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\buku))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+CRITICAL - 2024-03-15 01:49:36 --> Error: Object of class stdClass could not be converted to string
+in APPPATH\Controllers\buku.php on line 38.
+ 1 APPPATH\Controllers\buku.php(18): App\Controllers\buku->totalstok()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\buku->find()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\buku))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+CRITICAL - 2024-03-15 01:49:36 --> Error: Object of class stdClass could not be converted to string
+in APPPATH\Controllers\buku.php on line 38.
+ 1 APPPATH\Controllers\buku.php(18): App\Controllers\buku->totalstok()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\buku->find()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\buku))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+CRITICAL - 2024-03-15 01:52:42 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\buku.php on line 38.
+ 1 APPPATH\Controllers\buku.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ciUBSI\\app\\Controllers\\buku.php', 38)
+ 2 APPPATH\Controllers\buku.php(18): App\Controllers\buku->totalstok()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\buku->find()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\buku))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+CRITICAL - 2024-03-15 01:53:57 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\buku.php on line 38.
+ 1 APPPATH\Controllers\buku.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ciUBSI\\app\\Controllers\\buku.php', 38)
+ 2 APPPATH\Controllers\buku.php(18): App\Controllers\buku->totalstok()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\buku->find()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\buku))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
+CRITICAL - 2024-03-15 01:54:12 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\buku.php on line 38.
+ 1 APPPATH\Controllers\buku.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ciUBSI\\app\\Controllers\\buku.php', 38)
+ 2 APPPATH\Controllers\buku.php(18): App\Controllers\buku->totalstok()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\buku->find()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\buku))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ciUBSI\\public\\index.php')
