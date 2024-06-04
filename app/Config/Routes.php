@@ -14,6 +14,7 @@ $routes->get('/web', 'Web::index');
 $routes->get('/about', 'Web::about');
 $routes->add('/matakuliah/view', 'Matakuliah::cetak');
 
+$routes->get('/table', 'table::index');
 
 // routes kategori
 $routes->get('/kategori', 'contohdb::find');
