@@ -14,6 +14,9 @@ $routes->get('/web', 'Web::index');
 $routes->get('/about', 'Web::about');
 $routes->add('/matakuliah/view', 'Matakuliah::cetak');
 
+//biodataku
+$routes->get('/biodata', 'biodataku::vieww');
+$routes->post('/biodata/save', 'biodataku::cetakbio');
 
 // routes kategori
 $routes->get('/kategori', 'contohdb::find');
