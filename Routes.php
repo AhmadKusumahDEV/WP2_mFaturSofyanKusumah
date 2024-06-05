@@ -12,12 +12,8 @@ $routes->get('/contoh3/(:num)/(:num)', 'latihan1::penjumlahan/$1/$2');
 $routes->get('/matakuliah', 'Matakuliah::index');
 $routes->get('/web', 'Web::index');
 $routes->get('/about', 'Web::about');
+$routes->get('/contohdb', 'contohdb::P1');
 $routes->add('/matakuliah/view', 'Matakuliah::cetak');
-
-$routes->get('/table', 'table::index');
-
-// routes kategori
-$routes->get('/kategori', 'contohdb::find');
 
 // routes buku
 $routes->get('/buku', 'buku::find');
@@ -36,4 +32,3 @@ $routes->get('/admin/dashboard', 'admin::dashboard');
 $routes->get('/admin/myprofil', 'admin::myprofil');
 $routes->get('/admin/ubahprofil', 'admin::ubahprofil');
 $routes->post('/admin/saveubah', 'admin::saveubah');
-$routes->get('/admin/anggota', 'admin::anggota');

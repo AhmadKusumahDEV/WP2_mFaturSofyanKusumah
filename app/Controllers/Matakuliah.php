@@ -11,6 +11,7 @@ class Matakuliah extends BaseController
     }
     public function cetak()
     {
+        $sessionn = session();
         $validasion = \Config\Services::validation();
 
         $rules = [
@@ -35,6 +36,8 @@ class Matakuliah extends BaseController
         $validasion->setRules($rules);
 
         if ($validasion->withRequest($this->request)->run()) {
+            $temp = $validasion->listErrors();
+            dd($temp);
             $nama = $this->request->getPost('nama');
             $kode = $this->request->getPost('kode');
             $sks = $this->request->getPost('sks');
@@ -47,6 +50,8 @@ class Matakuliah extends BaseController
             ];
             return view('view-data-matakuliah', $data);
         } else {
+            $temp = $validasion->listErrors();
+            $sessionn->setFlashdata("error", $temp);
             return view('view-form-matakuliah');
         }
     }
