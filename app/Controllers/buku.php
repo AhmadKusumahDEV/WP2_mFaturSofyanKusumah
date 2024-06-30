@@ -3,6 +3,8 @@
 namespace App\Controllers;
 
 use \App\Models\bukumodels;
+use \App\Models\KategoriModel;
+use \App\Models\userModels;
 
 class buku extends BaseController
 {
@@ -14,8 +16,22 @@ class buku extends BaseController
     public function find()
     {
         $buku = new bukumodels();
-        // $result = $buku->findAll();
-        $this->totalstok();
+        $kategori = new KategoriModel();
+        $user = new userModels();
+        $res = $user->where('id', session()->get('user_id'))->first();
+        $result_buku = $buku->findAll();
+        $result_kategori = $kategori->findAll();
+        $data = [
+            'judul' => "Data Buku",
+            'buku' => $result_buku,
+            'kategori' => $result_kategori,
+            'anggota' => $res,
+        ];
+        echo view('admin/header', $data);
+        echo view('admin/sidebar', $data);
+        echo view('admin/topbar', $data);
+        echo view('admin/buku', $data);
+        echo view('admin/footer');
     }
 
     public function findone()
@@ -42,10 +58,10 @@ class buku extends BaseController
     
 
 
-    public function simpanBuku($data = null)
+    public function simpanBuku()
     {
         $buku = new bukumodels();
-        $simpan = $buku->insert($data);
+        
     }
 
     public function updateBuku($id = null, $data = null)

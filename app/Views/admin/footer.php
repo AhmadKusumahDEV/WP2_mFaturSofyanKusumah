@@ -54,6 +54,11 @@
     });
     $('.alert-message').alert().delay(3500).slideUp('slow');
 </script>
+<script>
+            function confirmDelete(judul, namaKategori) {
+            return confirm(`Kamu yakin akan menghapus ${judul} ${namaKategori}?`);
+        }
+</script>
 </body>
 
 </html>

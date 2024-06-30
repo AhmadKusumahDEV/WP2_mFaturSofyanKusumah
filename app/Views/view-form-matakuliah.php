@@ -7,10 +7,10 @@
 <body>
     <center>
     <?php if (session()->has('error')) : ?>
-                                    <div class="alert alert-danger" role="alert">
-                                        <?= session('error') ?>
-                                    </div>
-                                <?php endif; ?>
+            <div class="alert alert-danger" role="alert">
+                <?= session('error') ?>
+            </div>
+    <?php endif; ?>
         <form action="<?= base_url('matakuliah/view');?>" method="post">
             <table>
                 <tr>

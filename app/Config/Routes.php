@@ -17,7 +17,11 @@ $routes->add('/matakuliah/view', 'Matakuliah::cetak');
 $routes->get('/table', 'table::index');
 
 // routes kategori
-$routes->get('/kategori', 'contohdb::find');
+$routes->get('/kategori', 'kategori2::find');
+$routes->post('/kategori-post', 'kategori2::addKategori');
+$routes->get('/kategori/(:alphanum)', 'kategori2::hapusKategori/$1');
+$routes->get('/kategori/ubah/(:alphanum)', 'kategori2::formUbahKategori/$1');
+$routes->post('/kategori/ubah', 'kategori2::ubahkategori');
 
 // routes buku
 $routes->get('/buku', 'buku::find');

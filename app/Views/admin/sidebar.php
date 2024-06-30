@@ -3,7 +3,8 @@
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center
-justify-content-center" href="index.html">
+justify-content-center" href="<?=
+                                        base_url('admin/dashboard'); ?>">
 
         <div class="sidebar-brand-icon rotate-n-15">
             <i class="fas fa-book fa-fw d-inline-block"></i>
@@ -15,6 +16,19 @@ justify-content-center" href="index.html">
     <hr class="sidebar-divider">
 
     <!-- Looping Menu-->
+    <div class="sidebar-heading text-white">
+        Home
+    </div>
+
+    <li class="nav-item active">
+    <li class="nav-item">
+        <a class="nav-link pb-0 " href="<?=
+                                        base_url('admin/dashboard'); ?>">
+            <i class="fa fa-fw fa book"></i>
+            <span class="text-white">Dashboard</span></a>
+    </li>
+    </li>
+    <br>
 
     <!-- Heading -->
     <div class="sidebar-heading text-white">
