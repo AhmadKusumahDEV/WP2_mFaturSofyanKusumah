@@ -27,6 +27,10 @@ $routes->post('/kategori/ubah', 'kategori2::ubahkategori');
 $routes->get('/buku', 'buku::find');
 $routes->get('/buku/view', 'buku::view');
 $routes->post('/buku/carikan', 'buku::findone');
+$routes->get('/buku/ubah/(:alphanum)', 'buku::formbukuubah/$1');
+$routes->post('/buku', 'buku::simpanBuku');
+$routes->get('/buku/hapus/(:alphanum)', 'buku::deleteBuku/$1');
+$routes->post('/buku/ubah', 'buku::updateBuku');
 
 // routes auth
 $routes->get('/auth', 'auth::login');
